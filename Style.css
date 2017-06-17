@@ -22,34 +22,6 @@ background-position: center; background-size: cover; position: relative;
 	font-size: 24px; font-family: cursive; order:2; }
 
 
-#footer{
-	width: 1200px;
-	margin-top: 45%;
-	margin-left: 35%;
-	float: left;
-	height: 30px;
-	
-}
-
-#social>li{ list-style: none; float: left; width: 196px; height: 30px; font: cursive; font-size: 18px; text-align: center;
-	opacity: 0.8; }
-#social li>a{ text-decoration: none; color: white;  justify-content: center; 
-	font-family: cursive; line-height: 30px;}
-
-#social li>a:hover{ background: #285189; background-color: #285189;}
-
-#fb{
-	background-image: url(fb.png) ;
-	background-size: 80%;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#tw{
-	background-image: url(tw.png) no-repeat;
-	background-size: 80%;
-}
-
 @media screen and (max-width: 1261px){
 	#header{width:799px; top: 200px;}
 	#navbar{ width: 799px;}
@@ -71,7 +43,4 @@ background-position: center; background-size: cover; position: relative;
 	li>a:hover{ display: block; background: #285189; background-color: #285189;}
 	#text-content{ position: absolute; font-size: 6px; top: 70%; left: 40%;}
 }
-
-
-
 
