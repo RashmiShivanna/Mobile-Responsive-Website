@@ -1,0 +1,77 @@
+*{ margin: 0px; padding: 0px; }
+
+body{ height: 100%; background-image: url('adriana-velasquez-110184.jpg'); background-repeat: none; 
+background-position: center; background-size: cover; position: relative;
+ }
+
+#header{ width: 1200px; height: 35px; background-color: black; order: 1; 
+	margin-top: 10px; margin-left: 40px; margin-right: 40px;}
+
+#navbar{ width: 1200px; height: 35px; float: left;}
+
+#navbar>li{ list-style: none; float: left; width: 196px; height: 35px; background-color: black; font: cursive; font-size: 18px; text-align: center;
+	opacity: 0.8; border: 2px solid #285189;}
+
+#navbar li>a{ text-decoration: none; color: white; display: block; justify-content: center; font-family: cursive; line-height: 35px;}
+
+#drop-down{ display: none;}
+
+#navbar li>a:hover{ display: block; background: #285189; background-color: #285189;}
+
+#text-content{ top: 55%; left: 30%; color: white; text-align: center; position: absolute; 
+	font-size: 24px; font-family: cursive; order:2; }
+
+
+#footer{
+	width: 1200px;
+	margin-top: 45%;
+	margin-left: 35%;
+	float: left;
+	height: 30px;
+	
+}
+
+#social>li{ list-style: none; float: left; width: 196px; height: 30px; font: cursive; font-size: 18px; text-align: center;
+	opacity: 0.8; }
+#social li>a{ text-decoration: none; color: white;  justify-content: center; 
+	font-family: cursive; line-height: 30px;}
+
+#social li>a:hover{ background: #285189; background-color: #285189;}
+
+#fb{
+	background-image: url(fb.png) ;
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#tw{
+	background-image: url(tw.png) no-repeat;
+	background-size: 80%;
+}
+
+@media screen and (max-width: 1261px){
+	#header{width:799px; top: 200px;}
+	#navbar{ width: 799px;}
+	#navbar>li{ width: 129px;}
+	#text-content{ position: absolute; font-size: 18px; }
+}
+
+@media screen and (max-width: 840px){
+	#header{width:699px;position: relative; top:80px;}
+	#navbar{ width:699px; float: left;}
+	#navbar>li{ width: 112px;}
+	#text-content{ position: absolute; font-size: 10px; }
+}
+
+@media screen and (max-width: 480px){
+	#header{width: 100%; height: 60px; margin-left: 0%; }
+	#navbar{ width: 100%; height: 60px; float: none;}
+	#navbar>li{ width: 100%; list-style: none;float: none; border-bottom: 1px solid #285189}
+	li>a:hover{ display: block; background: #285189; background-color: #285189;}
+	#text-content{ position: absolute; font-size: 6px; top: 70%; left: 40%;}
+}
+
+
+
+
